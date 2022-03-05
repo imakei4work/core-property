@@ -22,7 +22,7 @@ public enum PropertyResource {
 				properties.load(new InputStreamReader(istream, CharCode.UTF8.getDecoder()));
 				return properties;
 			} catch (Exception e) {
-				throw new MissingResourceException("プロパティファイルの取得に失敗しました。[" + fileName + "]\n", fileName, fileName);
+				throw new MissingResourceException("プロパティファイルの取得に失敗しました。[ファイル名:" + fileName + "]\n", fileName, fileName);
 			}
 		}
 	},
