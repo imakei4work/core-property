@@ -18,7 +18,7 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub imakei Apache Maven Packages</name>
+			<name>GitHub imakei4work Apache Maven Packages</name>
 			<url>https://maven.pkg.github.com/imakei4work/maven2</url>
 		</repository>
 	</distributionManagement>
